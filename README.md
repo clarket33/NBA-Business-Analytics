@@ -14,6 +14,9 @@ o This dataset includes total viewership for each international country for each
 **test_set.csv <br />**
 o This dataset includes a list of games in the 2016-17 and 2017-18 seasons for which we predicted total international viewership (i.e., the sum across all countries). Included are 230 games from each season. <br />
 
+**predictions.csv <br />**
+o This is the resulting file with the predicted viewership for 460 NBA games <br />
+
 # The Process
 In determining the viewership numbers for the given games, the factors we decided to consider were day of the week, number of all stars in the game, average win percentage of the two teams playing, market size, and number of superstars. <br /> <br />
 For day of the week, we gave weekend games (including friday) a higher multiplier, as well as Christmas day and opening weekend as those are popular days for the NBA. <br /> <br />

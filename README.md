@@ -11,11 +11,8 @@ o This dataset includes performance stats for each player in each game in the 20
 **training_set.csv <br />**
 o This dataset includes total viewership for each international country for each game in the 2016-17 and 2017-18 seasons. Included are 1,000 games from each season. <br />
 
-**test_set.csv <br />**
-o This dataset includes a list of games in the 2016-17 and 2017-18 seasons for which we predicted total international viewership (i.e., the sum across all countries). Included are 230 games from each season. <br />
-
 **predictions.csv <br />**
-o This is the resulting file with the predicted viewership for 460 NBA games <br />
+o This dataset includes a list of games in the 2016-17 and 2017-18 seasons for which we predicted total international viewership (i.e., the sum across all countries). Included are 230 games from each season. <br />
 
 # The Process
 In determining the viewership numbers for the given games, the factors we decided to consider were day of the week, number of all stars in the game, average win percentage of the two teams playing, market size, and number of superstars. <br /> <br />

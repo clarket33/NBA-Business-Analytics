@@ -15,7 +15,7 @@ o This dataset includes total viewership for each international country for each
 o This dataset includes a list of games in the 2016-17 and 2017-18 seasons for which we predicted total international viewership (i.e., the sum across all countries). Included are 230 games from each season. <br />
 
 # The Process
-In determining the viewership numbers for the given games, the factors me and @gct38 decided to consider were day of the week, number of all stars in the game, average win percentage of the two teams playing, market size, and number of superstars. <br /> <br />
+In determining the viewership numbers for the given games, the factors @gct38 and I decided to consider were day of the week, number of all stars in the game, average win percentage of the two teams playing, market size, and number of superstars. <br /> <br />
 For day of the week, we gave weekend games (including friday) a higher multiplier, as well as Christmas day and opening weekend as those are popular days for the NBA. <br /> <br />
 For number of all-stars, the more all-stars that were playing, the higher multiplier used. <br /> <br />
 For win percentage, the higher the average win percentage, the higher the multiplier used in the algorithm. If both teams were under a win percentage of 35% , they would be penalized further. <br /> <br />

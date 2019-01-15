@@ -4,12 +4,12 @@ Given a sample size of statistics from 1000 games between two NBA seasons, the t
 # The Process
 In determining the viewership numbers for the given games, the factors @gct38 and I decided to consider were the day of the week, the number of all stars in the game, the average win percentage of the two teams playing, the average market size between the two teams, and the number of superstars in the game. <br /> <br />
 Each factor would make up a small percentage that would be applied to a country's highest viewership total, then added together to get total views for that country.<br /> <br />
-The criteria for determining the percentage of each factor is as follows: <br /><br /><br />
-For day of the week, we gave weekend games (including friday) a higher percentage, as well as Christmas day and opening weekend as those are popular days for the NBA. <br /> <br />
-For number of all-stars, the more all-stars that were playing, the higher percentage used. <br /> <br />
-For win percentage, the higher the average win percentage, the higher the percentage used in the algorithm. If both teams were under a win percentage of 35% , they would be penalized further. <br /> <br />
-For market size, each market is ranked as 1, 2, or 3, 3 being a large market, 1 being a small market. If both markets were 3, there would be a large percentage applied. If the average market was >= 2, there was an average percentage applied, and a low one if the combination was any lower than 2. <br /> <br />
-For number of superstars, which is if the player was in the top 15 in jersey sales for the given season, the more superstars meant a higher percentage. <br /> <br />
+The criteria for determining the percentage of each factor is as follows: <br /><br />
+-For day of the week, we gave weekend games (including friday) a higher percentage, as well as Christmas day and opening weekend as those are popular days for the NBA. <br /> <br />
+-For number of all-stars, the more all-stars that were playing, the higher percentage used. <br /> <br />
+-For win percentage, the higher the average win percentage, the higher the percentage used in the algorithm. If both teams were under a win percentage of 35% , they would be penalized further. <br /> <br />
+-For market size, each market is ranked as 1, 2, or 3, 3 being a large market, 1 being a small market. If both markets were 3, there would be a large percentage applied. If the average market was >= 2, there was an average percentage applied, and a low one if the combination was any lower than 2. <br /> <br />
+-For number of superstars, which is if the player was in the top 15 in jersey sales for the given season, the more superstars meant a higher percentage. <br /> <br />
 After a viewership number was arrived at for a certain game for a certain country,
 the percentages were applied for every country and added together to acquire the total international viewership for a specific game. We then repeated the process for 460 different games. <br />
 
